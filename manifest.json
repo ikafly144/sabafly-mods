@@ -1,6 +1,6 @@
 {
   "name": "sabafly-mods",
-  "latest_patch": "0.15",
+  "latest_patch": "1.0",
   "patches": [
     {
       "id": "0.11b",
@@ -19,6 +19,15 @@
       },
       "remote_path": "https://ikafly144.github.io/sabafly-mods/0.11b-to-0.15.sbpatch",
       "local_path": "0.11b-to-0.15.sbpatch"
+    },
+    {
+      "id": "1.0",
+      "type": "sbpatch",
+      "hash": {
+        "sha256": "d27bccff529c087051aa20b014522610a083181003a23f1531c05f14f0a25f25"
+      },
+      "remote_path": "https://ikafly144.github.io/sabafly-mods/0.15-to-1.0.sbpatch",
+      "local_path": "0.15-to-1.0.sbpatch"
     }
   ]
 }
