@@ -36,7 +36,7 @@ jobs:
 
       - name: Install sbutils
         # ランチャーのリポジトリからsbutilsをインストールします
-        run: go install github.com/ikafly144/sabalauncher/cmd/sbutils@latest
+        run: go install github.com/ikafly144/sabalauncher/cmd/sbutils@a8ef215fad9b0daa2e1b08b536c50e1357984d4e
 
       - name: Get Version from Tag
         id: get_version
