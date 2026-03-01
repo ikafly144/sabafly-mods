@@ -18,7 +18,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       # Modpackのソース（sb.index.jsonがある場所）を指定します
-      SOURCE_DIR: "sources"
+      SOURCE_DIR: "source"
     steps:
       - name: Checkout Modpack Source
         uses: actions/checkout@v4
