@@ -1,10 +1,33 @@
 {
   "formatVersion": 1,
   "name": "sabafly-mods",
-  "version": "v0.0",
+  "version": "v0.1",
   "dependencies": {
     "fabric-loader": "0.18.4",
     "minecraft": "1.21.11"
   },
-  "files": []
+  "files": [
+    {
+      "path": "mods/fabric-api-0.141.3+1.21.11.jar",
+      "hashes": {
+        "sha1": "50de67eb221f0b38216da8668b09ca311327040e",
+        "sha256": "86c453a86139662e775697d03b0ca7867f547374868c0cb3e3dc06f98dbfeef5"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/P7dR8mSH/versions/i5tSkVBH/fabric-api-0.141.3%2B1.21.11.jar"
+      ],
+      "fileSize": 2412693
+    },
+    {
+      "path": "mods/plasmovoice-fabric-1.21.11-2.1.8.jar",
+      "hashes": {
+        "sha1": "dbe65258e81955b3f45263f7a28aba6cfb2d5e89",
+        "sha256": "39d6b7996609196365efe57654d4340be9dc132cf5355dc16d5a8ad2d426a965"
+      },
+      "downloads": [
+        "https://cdn.modrinth.com/data/1bZhdhsH/versions/4gN2P9j6/plasmovoice-fabric-1.21.11-2.1.8.jar"
+      ],
+      "fileSize": 12197316
+    }
+  ]
 }
