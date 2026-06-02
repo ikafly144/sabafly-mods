@@ -88,7 +88,7 @@ jobs:
           # 前回のバージョンが存在すればsbpatch（差分）を生成して追加
           if [ -n "$PREV_VERSION" ] && [ "$PREV_VERSION" != "null" ] && [ "$PREV_VERSION" != "${{ env.VERSION }}" ]; then
             if [ -f "${PREV_VERSION}.sbpack" ]; then
-              PATCH_FILE="${PREV_VERSION}-to-${{ env.VERSION }}.sbpatch"
+              PATCH_FILE="${{ env.VERSION }}.sbpatch"
               # SOURCE_DIR ではなく、展開された古いpackと新しいpackを比較する必要があります
               # ここでは現在のディレクトリにある古いpackと新しいpackを比較します
               sbutils diff "${PREV_VERSION}.sbpack" "${{ env.VERSION }}.sbpack" "$PATCH_FILE"
